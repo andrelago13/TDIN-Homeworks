@@ -9,7 +9,5 @@ class Client {
         RemObj obj = new RemObj();
         Console.WriteLine(obj.Hello());
         Console.ReadLine();
-        Console.WriteLine(obj.Modify(ref v));
-        Console.WriteLine("Client after: {0}", v);
     }
 }
